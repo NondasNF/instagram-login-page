@@ -1,6 +1,9 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
+  background-color: #FAFAFA;
+  height: 100%;
+  width: 100vw;
 }
 
 .main, .main__log-in, .main__log-in-form, .main__log-in-or, .main__log-in-facebook, .main__log-app, .main__log-app__buttons, .main__terms {
@@ -30,8 +33,7 @@ body {
 }
 
 .main {
-  background-color: #FAFAFA;
-  width: 100vw;
+  width: 100%;
   height: 100%;
   align-items: flex-start;
 }
