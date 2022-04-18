@@ -1,0 +1,164 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.main, .main__log-in, .main__log-in-form, .main__log-in-or, .main__log-in-facebook, .main__log-app, .main__log-app__buttons, .main__terms {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main, .main__log-in, .main__log-in-form, .main__log-in-form__input, .main__log-in-form__submit, .main__log-in-facebook, .main__log-app, .main__log-app__buttons {
+  box-sizing: border-box;
+}
+
+.main__log-in, .main__log-in-form {
+  flex-direction: column;
+}
+
+.main__log-in,.main, .main__log-on {
+  padding: 25px 50px 25px 50px;
+}
+
+.main__log-in, .main__log-on, .main__log-in-form__input {
+  border : 1px solid #b6b5b5;
+}
+
+.main__log-in-forgot, .main__log-in-facebook__text, .main__log-on__sign-up {
+  text-decoration: none;
+}
+
+.main {
+  background-color: #FAFAFA;
+  width: 100vw;
+  height: 100%;
+  align-items: flex-start;
+}
+
+.main-aside {
+  width: 350px;
+}
+
+#main-aside__right {
+  margin-left: 50px;
+}
+
+.main__preview__img {
+  width: 500px;
+  height: auto;
+}
+
+.main__log-in-title{
+  margin: 25px 0 25px 0;
+}
+
+.main__log-in-form {
+  width: 100%;
+}
+
+.main__log-in-form__input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.main__log-in-form__submit {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #00bcd4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main__log-in-or {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.main__log-in-or-text{
+  margin: 0 5px 0 5px;
+  color: #b6b5b5;
+}
+
+.main__log-in-or__line {
+  width: 100%;
+  height: 1px;
+  background-color: #b6b5b5;
+}
+
+.main__log-in-facebook {
+  width: 100%;
+  height: 20px;
+}
+
+.main__log-in-facebook {
+  margin-bottom: 20px;
+}
+
+.main__log-in-facebook__icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+
+.main__log-in-facebook__text {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.main__log-in-forgot {
+  font-size: 12px;
+}
+
+.main__log-on {
+  margin: 10px 0 20px 0;
+}
+
+.main__log-on__sign-up {
+  color: #00bcd4;
+  font-weight: 700;
+}
+
+.main__log-app {
+  flex-direction: column;
+}
+
+.main__log-app__button {
+  width: 100%;
+  height: 40px;
+  margin: 20px 10px 0 0;
+}
+
+.main__terms {
+  height: 30px;
+  font-size: 12px;
+  color: #b6b5b5;
+}
+
+@media screen and (max-width: 768px) {
+  
+  #main-aside__left{
+    display:none;
+  }
+  #main-aside__right{
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .main {
+    padding: 0;
+  }
+  .main-aside {
+    width: 100%;
+  }
+  .main__log-in, .main__log-on, .main__log-in-form__input {
+    border : none;
+  }
+}
