@@ -6,7 +6,7 @@ body {
   width: 100vw;
 }
 
-.main, .main__log-in, .main__log-in-form, .main__log-in-or, .main__log-in-facebook, .main__log-app, .main__log-app__buttons, .main__terms {
+.main, .main__log-in, .main__log-in-form, .main__log-in-or, .main__log-in-facebook, .main__log-app, .main__log-app__buttons, .main__terms, .main__log-on {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,8 +32,15 @@ body {
   text-decoration: none;
 }
 
-.main {
+.main__log-in-form, .main__log-in-form__input, .main, .main__log-in-form__submit, .main__log-in-or, .main__log-in-or__line, .main__log-in-facebook, .main__log-app__button {
   width: 100%;
+}
+
+.main__log-in-form__input, .main__log-app__button, .main__log-in-form__submit {
+  height: 40px;
+}
+
+.main {
   height: 100%;
   align-items: flex-start;
 }
@@ -55,20 +62,12 @@ body {
   margin: 25px 0 25px 0;
 }
 
-.main__log-in-form {
-  width: 100%;
-}
-
 .main__log-in-form__input {
-  width: 100%;
-  height: 40px;
   margin-bottom: 20px;
   padding: 10px;
 }
 
 .main__log-in-form__submit {
-  width: 100%;
-  height: 40px;
   margin-bottom: 20px;
   padding: 10px;
   background-color: #00bcd4;
@@ -79,7 +78,6 @@ body {
 }
 
 .main__log-in-or {
-  width: 100%;
   margin-bottom: 20px;
 }
 
@@ -89,17 +87,12 @@ body {
 }
 
 .main__log-in-or__line {
-  width: 100%;
   height: 1px;
   background-color: #b6b5b5;
 }
 
 .main__log-in-facebook {
-  width: 100%;
   height: 20px;
-}
-
-.main__log-in-facebook {
   margin-bottom: 20px;
 }
 
@@ -120,6 +113,7 @@ body {
 
 .main__log-on {
   margin: 10px 0 20px 0;
+  font-size: 14px;
 }
 
 .main__log-on__sign-up {
@@ -132,8 +126,6 @@ body {
 }
 
 .main__log-app__button {
-  width: 100%;
-  height: 40px;
   margin: 20px 10px 0 0;
 }
 
